@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: fifi y ness 4ever
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
